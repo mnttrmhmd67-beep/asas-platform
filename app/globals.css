@@ -1,0 +1,68 @@
+/* التنسيقات العامة لموقع منصة أساس */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 1.5rem;
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
